@@ -1,37 +1,34 @@
-# pix-institutions-analysis
-This project focuses on cleaning and preparing a dataset of PIX participants to support a targeted outreach strategy. The objective is to classify financial institutions according to predefined business criteria, prioritize the most relevant organizations, and create a structured dataset that can be used for prospecting and market segmentation.
-
-# PIX Institutions Analysis
+# PIX Participants Data Cleaning & Segmentation
 
 ## Project Overview
 
-This project analyzes the official list of PIX participants published by the Central Bank of Brazil (Banco Central do Brasil).
+This project focuses on cleaning, standardizing, and classifying the official list of PIX participants published by the Central Bank of Brazil (Banco Central do Brasil).
 
-The main objective is to clean, standardize, and classify the dataset according to predefined business rules in order to identify and prioritize financial institutions for strategic outreach initiatives.
+The goal is to transform the raw dataset into a structured database that supports business analysis, prospect segmentation, and strategic outreach initiatives. Institutions are classified according to predefined business criteria to identify and prioritize the most relevant organizations.
 
 ---
 
 ## Business Problem
 
-The original dataset contains institutions with different profiles and categories. Before any outreach campaign can be developed, the data must be cleaned, standardized, and organized according to business priorities.
+The official PIX participants dataset contains institutions with different profiles, categories, and business models. Before any outreach strategy can be developed, the data must be cleaned, standardized, and enriched with business classifications.
 
-This project focuses on preparing the dataset to support a more targeted and efficient prospecting strategy.
+This project prepares the dataset to support a more targeted and efficient prospecting strategy.
 
 ---
 
 ## Objectives
 
-- Clean inconsistent data
-- Standardize institution categories
-- Classify institutions based on business criteria
-- Prioritize institutions for outreach
-- Prepare a structured dataset for further analysis
+- Clean and standardize the raw dataset
+- Validate and organize institution information
+- Classify institutions based on predefined business criteria
+- Prioritize institutions for outreach initiatives
+- Create a structured dataset for further business analysis
 
 ---
 
 ## Dataset
 
-**Source:**
+**Source:**  
 Banco Central do Brasil (BCB)
 
 The dataset contains the official list of institutions participating in the Brazilian PIX payment system.
@@ -50,13 +47,14 @@ The dataset contains the official list of institutions participating in the Braz
 
 ## Repository Structure
 
-```
-PIX-INSTITUTIONS-ANALYSIS/
+```text
+PIX-Participants-Data-Cleaning-Segmentation/
 │
 ├── data/
 │   └── Lista_Pix.csv
 │
 ├── notebooks/
+│   └── 01_data_cleaning.ipynb
 │
 ├── README.md
 ├── .gitignore
@@ -65,6 +63,6 @@ PIX-INSTITUTIONS-ANALYSIS/
 
 ---
 
-## Status
+## Project Status
 
 🚧 Project in progress.

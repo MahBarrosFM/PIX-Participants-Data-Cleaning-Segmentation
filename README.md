@@ -65,4 +65,4 @@ PIX-Participants-Data-Cleaning-Segmentation/
 
 ## Project Status
 
-🚧 Project in progress.
+✅ Project completed.
